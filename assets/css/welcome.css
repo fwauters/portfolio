@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2c293e;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+  max-width: 1000px;
+  color: #fafafa;
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 2px solid #fafafa;
+}
+
+body main section {
+  background-color: #fafafa;
+  width: 80vw;
+  max-width: 1000px;
+  margin: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 2px 4px black;
+          box-shadow: 0 2px 4px black;
+}
+
+body main section :hover {
+  background-color: #6e6983;
+  color: #fafafa;
+  text-shadow: 1px 2px black;
+  border-radius: 15px;
+}
+
+body main section a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2c293e;
+  text-decoration: none;
+}
+
+body main section a img {
+  width: 100px;
+  margin: 15px;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+  max-width: 1000px;
+  margin: 10px;
+  padding: 10px;
+  border-top: 2px solid #fafafa;
+}
+
+body footer i {
+  color: #fafafa;
+  margin: 0 10px 0 10px;
+}
+/*# sourceMappingURL=welcome.css.map */

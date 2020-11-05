@@ -1,0 +1,67 @@
+@import "./mixins";
+@import "./variables";
+
+@include reset();
+
+body {
+    @include flexCenter(column);
+    background-color: $darkGrey;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: $mainFont;
+
+    header {
+        @include flexCenter(column);
+        width: 80vw;
+        max-width: 1000px;
+        color: $white;
+        margin: 10px;
+        padding: 10px;
+        border-bottom: 2px solid $white;
+    }
+
+    main {
+
+        section {
+            background-color: $white;
+            width: 80vw;
+            max-width: 1000px;
+            margin: 15px;
+            border-radius: 15px;
+            box-shadow: 0 2px 4px black;
+
+            :hover {
+                background-color:$lightGrey;
+                color: $white;
+                text-shadow: 1px 2px black;
+                border-radius: 15px;
+            }
+
+            a {
+                @include flexSpaceEven(row);
+                color: $darkGrey;
+                text-decoration: none;
+
+                img {
+                    width: 100px;
+                    margin: 15px;
+                }
+            }
+        }
+    }
+
+    footer {
+        @include flexCenter(row);
+        width: 80vw;
+        max-width: 1000px;
+        margin: 10px;
+        padding: 10px;
+        border-top: 2px solid $white;
+
+        i {
+            color: $white;
+            margin: 0 10px 0 10px;
+        }
+    }
+}
