@@ -44,8 +44,12 @@ body header {
   max-width: 1000px;
   color: #fafafa;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
   border-bottom: 2px solid #fafafa;
+}
+
+body header h1 {
+  margin-bottom: 10px;
 }
 
 body main section {
@@ -53,7 +57,7 @@ body main section {
   width: 80vw;
   max-width: 1000px;
   margin: 15px;
-  border-radius: 15px;
+  border-radius: 3px;
   -webkit-box-shadow: 0 2px 4px black;
           box-shadow: 0 2px 4px black;
 }
@@ -62,7 +66,7 @@ body main section :hover {
   background-color: #6e6983;
   color: #fafafa;
   text-shadow: 1px 2px black;
-  border-radius: 15px;
+  border-radius: 3px;
 }
 
 body main section a {
@@ -111,6 +115,6 @@ body footer {
 
 body footer i {
   color: #fafafa;
-  margin: 0 10px 0 10px;
+  margin: 10px 10px 0 10px;
 }
 /*# sourceMappingURL=welcome.css.map */
