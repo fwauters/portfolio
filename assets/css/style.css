@@ -97,7 +97,7 @@ body header .dropdown .dropdown-menu {
 }
 
 body header .dropdown .dropdown-menu a {
-  color: white;
+  color: #fafafa;
 }
 
 body header .dropdown .dropdown-menu a:hover {
@@ -229,7 +229,7 @@ body main .tab-content .card .card-header {
 }
 
 body main .tab-content .card .card-header h5 {
-  color: white;
+  color: #fafafa;
   text-shadow: 1px 2px 2px black;
   margin: 5px;
 }
@@ -237,7 +237,7 @@ body main .tab-content .card .card-header h5 {
 body main .tab-content .card .card-header img {
   height: 25px;
   margin: 5px;
-  border: 1px solid white;
+  border: 1px solid #fafafa;
   -webkit-box-shadow: 1px 2px 2px black;
           box-shadow: 1px 2px 2px black;
 }

@@ -57,7 +57,7 @@ body {
                 min-width: 10px;
 
                 a {
-                    color: white;
+                    color: $white;
                     
                     &:hover {
                         color: black;
@@ -160,7 +160,7 @@ body {
                     justify-content: space-between;
 
                     h5 {
-                        color: white;
+                        color: $white;
                         text-shadow: 1px 2px 2px black;
                         margin: 5px;
                     }
@@ -168,7 +168,7 @@ body {
                     img {
                         height: 25px;
                         margin: 5px;
-                        border: 1px solid white;
+                        border: 1px solid $white;
                         box-shadow: 1px 2px 2px black;
                     }
                 }
