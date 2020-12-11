@@ -7,7 +7,6 @@ body {
     @include flexCenter(column);
     background-color: $darkGrey;
     width: 100vw;
-    height: 100vh;
     overflow-x: hidden;
     font-family: $mainFont;
 
@@ -127,7 +126,7 @@ body {
     main {
         background-color: $white;
         max-width: 1000px;
-        height: 80vh;
+        min-height: 50vh;
         margin: 50px 50px 0 50px;
         border-radius: 3px;
         box-shadow: 0 4px 15px black;
